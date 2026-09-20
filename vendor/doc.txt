@@ -1,0 +1,14 @@
+ Volume in drive D is New Volume
+ Volume Serial Number is DECB-D121
+
+ Directory of D:\ServerPhp8\root\Selinium\vendor
+
+18/10/2024  12:13 pm    <DIR>          .
+18/10/2024  12:13 pm    <DIR>          ..
+18/10/2024  10:43 am               771 autoload.php
+18/10/2024  10:43 am    <DIR>          composer
+18/10/2024  12:13 pm                 0 doc.txt
+18/10/2024  10:43 am    <DIR>          php-webdriver
+18/10/2024  10:43 am    <DIR>          symfony
+               2 File(s)            771 bytes
+               5 Dir(s)  35,596,697,600 bytes free
