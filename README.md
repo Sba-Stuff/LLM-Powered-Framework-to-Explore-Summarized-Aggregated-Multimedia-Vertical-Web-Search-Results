@@ -1,7 +1,6 @@
 # LLM-ExSMuV — LLM Powered Exploration Software for Summarized Multimedia Vertical Search Results
 
-<img width="1668" height="206" alt="image" src="https://github.com/user-attachments/assets/af8c837a-64d8-4d63-8410-0dba8b764e0f" />
-
+<img width="440" height="145" alt="ExSMuV" src="https://github.com/user-attachments/assets/b4e9c4e7-4f38-4011-a54e-c96d13a69317" />
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/Sba-Stuff/ExSMuV)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)

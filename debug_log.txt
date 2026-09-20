@@ -1,0 +1,8 @@
+[2026-02-10 00:53:48] === STARTING searchresults3.php ===
+[2026-02-10 00:53:48] debugging.php included successfully
+[2026-02-10 00:53:48] Testing LLM connection...
+[2026-02-10 00:53:48] LLM Connection SUCCESSFUL
+[2026-02-10 00:53:48] LLM Config: URL=http://127.0.0.1:1234/v1/chat/completions, Model=liquid/lfm2-1.2b
+[2026-02-10 00:53:48] Generating test page for topic: transformers
+[2026-02-10 00:53:48] Calling LLM with prompt length: 40 chars
+[2026-02-10 00:53:54] LLM Response length: 67 chars
