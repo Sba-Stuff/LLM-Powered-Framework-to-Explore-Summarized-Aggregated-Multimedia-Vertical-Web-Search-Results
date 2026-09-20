@@ -1,0 +1,145 @@
+.split {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  width: 75%; /* Adjust to occupy 3/4 of the screen */
+  left: 0;
+  background-color: white;
+}
+
+.right {
+  width: 25%; /* Adjust to occupy 1/4 of the screen */
+  right: 0;
+  background-color: white;
+}
+
+.centered {
+  /*position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;*/
+}
+
+.centered img {
+  width: 150px;
+  height: 150px;
+  /*border-radius: 50%;*/
+}
+
+body {
+font-family: Arial, sans-serif;
+margin: 20px;
+background-color: #f4f4f9;
+}
+/*.snippet-container {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+.snippet {
+width: 300px;
+background: #fff;
+border: 1px solid #ddd;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+transition: transform 0.2s ease;
+}
+.snippet:hover {
+transform: translateY(-5px);
+}
+.thumbnail-container {
+display: flex;
+flex-wrap: wrap;
+gap: 5px;
+justify-content: space-between;
+padding: 10px;
+}
+.thumbnail-container img,
+.thumbnail-container video {
+width: 48%;
+height: 120px;
+object-fit: cover;
+border-radius: 5px;
+}
+.contenter {
+padding: 15px;
+}
+.contenter h3 {
+font-size: 18px;
+margin: 0 0 10px;
+color: #333;
+}
+.contenter p {
+font-size: 14px;
+color: #666;
+line-height: 1.5;
+}*/
+.snippet {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 300px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.contenter {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.contenter h3 {
+  font-size: 18px;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.contenter p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.contenter button {
+  margin-top: auto;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.snippet:hover {
+transform: translateY(-5px);
+}
+.thumbnail-container {
+display: flex;
+flex-wrap: wrap;
+gap: 5px;
+justify-content: space-between;
+padding: 10px;
+}
+.thumbnail-container img,
+.thumbnail-container video {
+width: 48%;
+height: 120px;
+object-fit: cover;
+border-radius: 5px;
+}
